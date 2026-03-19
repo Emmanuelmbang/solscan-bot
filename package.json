@@ -1,0 +1,16 @@
+{
+  "name": "solscan-bot",
+  "version": "1.0.0",
+  "description": "Real-time Solana liquidity pool detector with Telegram alerts",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "node-fetch": "2.7.0",
+    "ws": "8.16.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
